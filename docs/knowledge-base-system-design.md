@@ -111,9 +111,9 @@ your-knowledge-base/
 │   │   ├── ask.md
 │   │   ├── assimilate.md
 │   │   └── health.md
-│   └── memory/                 # 跨会话记忆（可选）
-│       ├── MEMORY.md
-│       └── activity-log.md
+│   └── memory/                 # 跨会话记忆（推荐启用）
+│       ├── MEMORY.md           # 项目背景、偏好、决策记录
+│       └── activity-log.md     # 会话历史摘要
 │
 ├── CLAUDE.md                   # 项目级 Claude 配置（核心！）
 ├── .gitignore
@@ -127,7 +127,8 @@ your-knowledge-base/
 | `raw/` | 只读事实源 | 永久 | ✅ 必须 | 仅新增（add-only） |
 | `wiki/` | 编译后资产 | 永久 | ✅ 必须 | 读写 |
 | `outputs/` | 临时工作台 | 临时 | ❌ 忽略 | 完全控制 |
-| `.claude/` | 系统配置 | 永久 | ✅ 必须 | 读取优先 |
+| `.claude/commands/` | 自定义命令 | 永久 | ✅ 必须 | 读取优先 |
+| `.claude/memory/` | 跨会话记忆 | 永久 | ✅ 必须 | 读写 |
 
 ---
 
@@ -170,7 +171,7 @@ your-knowledge-base/
 - `wiki/`：编译后的知识资产，核心价值所在
 - `outputs/`：临时文件，可随意读写，不提交 Git
 - `.claude/commands/`：自定义命令定义
-- `.claude/memory/`：跨会话记忆（可选）
+- `.claude/memory/`：跨会话记忆
 
 ## 文件命名规范
 - 原始资料：`YYYY-MM-DD_描述性标题.md`
@@ -225,10 +226,49 @@ your-knowledge-base/
 - `wiki/` 和 `raw/` 应定期提交
 - 提交信息格式：`kb: [操作类型] 简要说明`
 
-## 记忆机制（可选）
-如果启用了长期记忆：
+## 记忆机制
+长期记忆帮助 Claude 跨会话保持对项目的理解：
+
 - 会话开始时读取 `.claude/memory/MEMORY.md`
 - 会话结束时将关键决策追加到 `.claude/memory/activity-log.md`
+
+### MEMORY.md 模板
+
+创建 `.claude/memory/MEMORY.md` 文件：
+
+```markdown
+# 知识库项目记忆
+
+## 项目背景
+[描述知识库的主题范围、目标用户、主要用途]
+
+## 用户偏好
+- [用户的偏好设置，如语言风格、输出格式等]
+
+## 关键决策
+- YYYY-MM-DD：[重要决策记录及理由]
+
+## 待办事项
+- [跨会话的待处理事项]
+
+## 已知问题
+- [已知的问题或限制]
+```
+
+### activity-log.md 初始内容
+
+创建 `.claude/memory/activity-log.md` 文件：
+
+```markdown
+# 会话历史摘要
+
+> 本文件记录每次会话的关键活动，便于跨会话追溯。
+
+---
+
+## YYYY-MM-DD
+- [会话开始] 知识库初始化完成
+```
 
 
 ---
@@ -336,7 +376,11 @@ sequenceDiagram
 4. **添加自定义命令**  
    将附录中的命令模板复制到 `.claude/commands/` 目录
 
-5. **摄入第一条资料**
+5. **创建记忆文件**
+   创建 `.claude/memory/MEMORY.md` 和 `.claude/memory/activity-log.md`
+   （参见"记忆机制"章节的模板）
+
+6. **摄入第一条资料**
    ```
    /ingest https://en.wikipedia.org/wiki/Knowledge_management
    ```
@@ -415,9 +459,7 @@ arguments:
 请执行以下步骤摄入资料到知识库：
 
 ## 步骤 1：获取内容
-- 如果 {source} 是 URL：
-  - **注意**：Claude Code 本身不直接支持网页抓取，需配合外部工具（如 `playwright-cli` 技能或 `WebFetch` 工具）
-  - 使用外部工具获取内容，转换为 Markdown
+- 如果 {source} 是 URL：使用外部工具（如 `playwright-cli` 技能或 `WebFetch` 工具）获取内容，转换为 Markdown
 - 如果 {source} 是文件路径：读取本地文件
 - 如果 {source} 是文本：直接使用
 

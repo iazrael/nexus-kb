@@ -10,6 +10,15 @@
 !.claude/commands
 !.claude/memory
 
+# Knowledge Base outputs (temporary files)
+/outputs/tmp/
+/outputs/cache/
+/outputs/debug/
+# But keep reports and exports
+!/outputs/reports/
+!/outputs/exports/
+!/outputs/.gitkeep
+
 # Local agent/session state
 .omc/
 .omx/
