@@ -3,16 +3,16 @@
 > 本文件是知识库的主目录，记录所有编译后的知识条目。
 
 ## 概念
-<!-- 概念条目列表，格式：- [[concepts/概念名|显示名称]] -->
-- [[wiki/concepts/LLMWiki|LLM Wiki]]
-- [[wiki/concepts/IdeaFile|Idea File]]
-- [[wiki/concepts/Memex|Memex]]
-- [[wiki/concepts/ProgressiveTokenDisclosure|渐进式 Token 披露]]
-- [[wiki/concepts/KnowledgeFeedback|知识反哺]]
+<!-- 概念条目列表，格式：- [显示名称](concepts/概念名.md) -->
+- [LLM Wiki](concepts/LLMWiki.md)
+- [Idea File](concepts/IdeaFile.md)
+- [Memex](concepts/Memex.md)
+- [渐进式 Token 披露](concepts/ProgressiveTokenDisclosure.md)
+- [知识反哺](concepts/KnowledgeFeedback.md)
 
 ## 摘要
 <!-- 资料摘要列表 -->
-- [[wiki/summaries/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径-summary|Karpathy LLM Wiki 完整拆解]]
+- [Karpathy LLM Wiki 完整拆解](summaries/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径-summary.md)
 
 ## 对比分析
 <!-- 对比文档列表 -->

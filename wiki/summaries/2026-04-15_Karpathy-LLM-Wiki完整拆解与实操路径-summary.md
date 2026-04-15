@@ -9,5 +9,5 @@
 3. **生产环境经验**：6 条关键教训包括先分类再提取、设 token 预算（四级渐进式披露）、每种实体类型一个模板、每个任务产出两个输出（答案+更新）、从第一天设计跨域标签、人类负责验证
 
 ## 原始来源
-- [raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md](raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md)
+- [raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md](../../raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md)
 - 编译日期：2026-04-15

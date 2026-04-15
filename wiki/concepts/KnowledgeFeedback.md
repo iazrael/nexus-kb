@@ -9,10 +9,10 @@
 3. **与 RAG 的对比**：RAG 的答案随用随弃，不积累；知识反哺让答案成为新的知识资产
 
 ## 来源
-- [raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md](raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md)
+- [raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md](../../raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md)
 
 ## 关联概念
-- [[wiki/concepts/LLMWiki|LLM Wiki]]
+- [LLM Wiki](LLMWiki.md)
 
 ## 边界条件
 - **质量控制**：需要人工判断哪些回答值得保存，避免低质量内容污染知识库

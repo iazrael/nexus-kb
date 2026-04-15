@@ -9,11 +9,11 @@ Vannevar Bush 于 1945 年提出的个人知识设备概念，允许用户存储
 3. **未解决的最后一环**：Bush 没有解决"谁来做维护"的问题，LLM Wiki 补上了这一环——由 LLM 承担知识库的维护工作
 
 ## 来源
-- [raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md](raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md)
+- [raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md](../../raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md)
 - 原始文献：[As We May Think (1945)](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)
 
 ## 关联概念
-- [[wiki/concepts/LLMWiki|LLM Wiki]]
+- [LLM Wiki](LLMWiki.md)
 
 ## 边界条件
 - **历史局限性**：受限于 1945 年的技术条件，无法实现自动化维护

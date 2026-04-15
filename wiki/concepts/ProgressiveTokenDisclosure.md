@@ -9,10 +9,10 @@
 3. **适用场景**：知识库查询场景，尤其适合处理大规模文档集合时控制上下文窗口使用
 
 ## 来源
-- [raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md](raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md)
+- [raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md](../../raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md)
 
 ## 关联概念
-- [[wiki/concepts/LLMWiki|LLM Wiki]]
+- [LLM Wiki](LLMWiki.md)
 
 ## 边界条件
 - **依赖索引质量**：如果索引文件质量不高，可能导致错误方向选择

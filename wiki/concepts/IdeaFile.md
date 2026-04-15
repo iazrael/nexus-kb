@@ -9,10 +9,10 @@
 3. **知识传播范式转移**：从"给你一个成品让你 fork"变成"给你一个想法让你的 AI 帮你从零构建"，更具适应性和灵活性
 
 ## 来源
-- [raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md](raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md)
+- [raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md](../../raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md)
 
 ## 关联概念
-- [[wiki/concepts/LLMWiki|LLM Wiki]]
+- [[LLMWiki|LLM Wiki]]
 
 ## 边界条件
 - **依赖 agent 能力**：需要 agent 具备足够的理解和执行能力来从想法构建系统

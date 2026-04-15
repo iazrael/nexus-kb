@@ -9,7 +9,7 @@
 3. **三大核心操作**：Ingest（摄入新资料，触发 10-15 个页面的增量更新）、Query（查询，好的回答可反哺 wiki）、Lint（健康检查，自动识别矛盾和缺口）
 
 ## 来源
-- [raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md](raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md)
+- [raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md](../../raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md)
 
 ## 关联概念
 
