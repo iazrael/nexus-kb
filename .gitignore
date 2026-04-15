@@ -2,13 +2,13 @@
 .DS_Store
 .idea/
 .vscode/
-.claude/
+.claude/*
 .omc/
 .omx/
 
 # Keep commands & memory
-!.claude/commands
-!.claude/memory
+!.claude/commands/
+!.claude/memory/
 
 # Knowledge Base outputs (temporary files)
 /outputs/tmp/
