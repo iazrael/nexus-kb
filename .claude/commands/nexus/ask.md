@@ -18,13 +18,13 @@ arguments:
 3. 在 `wiki/concepts/`、`wiki/compare/`、`wiki/howto/` 中搜索相关文件
    - 确匹配：文件名包含关键词
    - 语义匹配：扫描文件内容，寻找相关段落
-4. 如果相关概念不足，提示用户可能需要 `/ingest` 新资料
+4. 如果相关概念不足，提示用户可能需要 `/nexus:ingest` 新资料
 
 ## 步骤 2：综合回答
 - 优先使用 `wiki/` 中的编译知识
 - 如果多个条目相关，综合它们的内容
 - 标注信息来源：`[[wiki/路径]]`
-- 如果发现矛盾，明确指出并建议运行 `/health`
+- 如果发现矛盾，明确指出并建议运行 `/nexus:health`
 
 ## 步骤 3：特殊模式处理
 
@@ -38,7 +38,7 @@ arguments:
 2. 格式：`{"question": "问题", "answer": "回答", "timestamp": "日期", "source": ["wiki/路径"]}`
 
 ## 步骤 4：记录交互（可选）
-如果用户后续执行 `/assimilate`，本次问答会被吸收到知识库
+如果用户后续执行 `/nexus:assimilate`，本次问答会被吸收到知识库
 
 ## 回答格式示例
 ```
@@ -52,8 +52,8 @@ arguments:
 - [[wiki/concepts/概念2]]
 
 💡 相关操作：
-- 发现新见解？运行 `/assimilate` 吸收到知识库
-- 信息不足？运行 `/ingest [URL]` 添加新资料
+- 发现新见解？运行 `/nexus:assimilate` 吸收到知识库
+- 信息不足？运行 `/nexus:ingest [URL]` 添加新资料
 ```
 
 ## 注意事项

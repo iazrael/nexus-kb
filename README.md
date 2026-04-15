@@ -14,11 +14,11 @@ outputs/  → 临时文件（不提交）
 
 | 命令 | 说明 |
 |------|------|
-| `/ingest <source>` | 摄入原始资料 |
-| `/compile` | 编译为知识条目 |
-| `/ask <question>` | 基于知识库回答 |
-| `/assimilate` | 吸收问答到知识库 |
-| `/health` | 检查一致性 |
+| `/nexus:ingest <source>` | 摄入原始资料 |
+| `/nexus:compile` | 编译为知识条目 |
+| `/nexus:ask <question>` | 基于知识库回答 |
+| `/nexus:assimilate` | 吸收问答到知识库 |
+| `/nexus:health` | 检查一致性 |
 
 ## 原则
 

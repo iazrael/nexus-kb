@@ -8,5 +8,5 @@
 - [初始化] 知识库系统配置完成
 - [配置] 目录结构建立：raw/, wiki/, outputs/
 - [配置] CLAUDE.md 核心配置文件创建
-- [配置] 五大斜杠命令模板创建：/ingest, /compile, /ask, /assimilate, /health
+- [配置] 五大斜杠命令模板创建：/nexus:ingest, /nexus:compile, /nexus:ask, /nexus:assimilate, /nexus:health
 - [配置] 记忆机制启用：MEMORY.md, activity-log.md

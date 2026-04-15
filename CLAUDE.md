@@ -51,11 +51,12 @@
 ```
 
 ## 可用命令
-- `/ingest <source>` - 摄入新资料到 `raw/`
-- `/compile` - 将 `raw/` 编译为 `wiki/`
-- `/ask <question>` - 基于 `wiki/` 回答问题
-- `/assimilate` - 将当前问答吸收进 `wiki/`
-- `/health` - 检查知识库一致性
+所有知识库相关命令统一在 `/nexus:` 命名空间下：
+- `/nexus:ingest <source>` - 摄入新资料到 `raw/`
+- `/nexus:compile` - 将 `raw/` 编译为 `wiki/`
+- `/nexus:ask <question>` - 基于 `wiki/` 回答问题
+- `/nexus:assimilate` - 将当前问答吸收进 `wiki/`
+- `/nexus:health` - 检查知识库一致性
 
 ## 行为准则
 1. **开始会话时**：读取 `wiki/index.md` 了解知识库概览
