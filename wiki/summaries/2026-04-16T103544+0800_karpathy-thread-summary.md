@@ -1,15 +1,15 @@
 ---
-id: "wiki-summaries-karpathy-thread"
-title: "Karpathy X 原帖摘要"
-type: "summary"
-created_at: "2026-04-16"
+id: wiki-summaries-karpathy-thread
+title: Karpathy X 原帖摘要
+type: summary
+created_at: 2026-04-16
 derived_from:
-  - "raw/articles/2026-04-16T103544+0800_Thread by @karpathy.md"
+  - raw/articles/2026-04-16T103544+0800_Thread by @karpathy.md
 tags:
-  - "summary"
-  - "llm-wiki"
-  - "karpathy"
-status: "active"
+  - summary
+  - llm-wiki
+  - karpathy
+status: active
 ---
 
 # Karpathy X 原帖摘要
