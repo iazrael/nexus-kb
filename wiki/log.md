@@ -4,6 +4,20 @@
 
 ---
 
+## 2026-04-16
+
+- [编译] 从 `raw/articles/2026-04-16T103320+0800_llm-wiki.md` 生成摘要：`wiki/summaries/2026-04-16T103320+0800_llm-wiki-summary.md`
+  - 概念 ID：wiki-summaries-llm-wiki-gist
+- [编译] 从 `raw/articles/2026-04-16T103544+0800_Thread by @karpathy.md` 生成摘要：`wiki/summaries/2026-04-16T103544+0800_karpathy-thread-summary.md`
+  - 概念 ID：wiki-summaries-karpathy-thread
+- [编译] 更新概念：`wiki/concepts/LLMWiki.md`（补充 Gist 方法论文档和 X 原帖细节，完善架构、操作、索引策略）
+- [编译] 更新概念：`wiki/concepts/IdeaFile.md`（补充 frontmatter 和来源）
+- [编译] 更新概念：`wiki/concepts/Memex.md`（补充 frontmatter 和来源）
+- [编译] 更新概念：`wiki/concepts/ProgressiveTokenDisclosure.md`（补充 frontmatter）
+- [编译] 更新概念：`wiki/concepts/KnowledgeFeedback.md`（补充 frontmatter 和来源）
+- [双向链接] 更新 `raw/articles/2026-04-16T103320+0800_llm-wiki.md` 的 status 为 compiled，追加 compiled_to
+- [双向链接] 更新 `raw/articles/2026-04-16T103544+0800_Thread by @karpathy.md` 的 status 为 compiled，追加 compiled_to
+
 ## 2026-04-15
 
 - [初始化] 知识库系统创建完成

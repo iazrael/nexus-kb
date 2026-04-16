@@ -1,3 +1,21 @@
+---
+id: "wiki-concepts-IdeaFile"
+title: "Idea File"
+type: "concept"
+created_at: "2026-04-15"
+updated_at: "2026-04-16"
+derived_from:
+  - "raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md"
+  - "raw/articles/2026-04-16T103320+0800_llm-wiki.md"
+tags:
+  - "knowledge-sharing"
+  - "llm-agent"
+  - "karpathy"
+status: "active"
+related_concepts:
+  - "LLMWiki"
+---
+
 # Idea File
 
 ## 定义

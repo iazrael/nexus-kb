@@ -1,3 +1,20 @@
+---
+id: "wiki-concepts-KnowledgeFeedback"
+title: "知识反哺"
+type: "concept"
+created_at: "2026-04-15"
+updated_at: "2026-04-16"
+derived_from:
+  - "raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md"
+  - "raw/articles/2026-04-16T103320+0800_llm-wiki.md"
+tags:
+  - "knowledge-growth"
+  - "query"
+status: "active"
+related_concepts:
+  - "LLMWiki"
+---
+
 # 知识反哺
 
 ## 定义

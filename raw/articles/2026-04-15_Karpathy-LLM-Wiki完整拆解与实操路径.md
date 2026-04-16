@@ -1,3 +1,26 @@
+---
+id: "raw-articles-2026-04-15-karpathy-llm-wiki"
+title: "8 万人收藏：Karpathy 的 LLM Wiki 到底是什么？完整拆解+实操路径"
+type: "article"
+created_at: "2026-04-15"
+source_url: "https://juejin.cn/post/7625301482213130291"
+source_author: "NikoAI编程"
+published_at: "2026-04-07"
+tags:
+  - "llm"
+  - "knowledge-management"
+  - "karpathy"
+  - "production-experience"
+status: "compiled"
+compiled_to:
+  - "wiki/summaries/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径-summary.md"
+  - "wiki/concepts/LLMWiki.md"
+  - "wiki/concepts/IdeaFile.md"
+  - "wiki/concepts/Memex.md"
+  - "wiki/concepts/ProgressiveTokenDisclosure.md"
+  - "wiki/concepts/KnowledgeFeedback.md"
+---
+
 # 8 万人收藏：Karpathy 的 LLM Wiki 到底是什么？完整拆解+实操路径
 
 **作者**: NikoAI编程

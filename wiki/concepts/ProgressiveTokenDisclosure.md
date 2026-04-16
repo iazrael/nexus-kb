@@ -1,3 +1,20 @@
+---
+id: "wiki-concepts-ProgressiveTokenDisclosure"
+title: "渐进式 Token 披露"
+type: "concept"
+created_at: "2026-04-15"
+updated_at: "2026-04-16"
+derived_from:
+  - "raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md"
+tags:
+  - "optimization"
+  - "production"
+  - "token-budget"
+status: "active"
+related_concepts:
+  - "LLMWiki"
+---
+
 # 渐进式 Token 披露
 
 ## 定义

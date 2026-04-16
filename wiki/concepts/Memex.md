@@ -1,3 +1,21 @@
+---
+id: "wiki-concepts-Memex"
+title: "Memex"
+type: "concept"
+created_at: "2026-04-15"
+updated_at: "2026-04-16"
+derived_from:
+  - "raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md"
+  - "raw/articles/2026-04-16T103320+0800_llm-wiki.md"
+tags:
+  - "history"
+  - "knowledge-management"
+  - "vannevar-bush"
+status: "active"
+related_concepts:
+  - "LLMWiki"
+---
+
 # Memex
 
 ## 定义
