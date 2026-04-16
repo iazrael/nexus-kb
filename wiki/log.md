@@ -10,6 +10,7 @@
   - ID：raw-articles-2026-04-16-openclaw-skill-guide
   - 来源：https://tbbbk.com/openclaw-create-custom-skill-guide-2026/
   - 标签：openclaw, skill, tutorial, ai-automation, markdown
+- [新增命令] `/nexus:evolve` — 分析对话上下文，生成命令优化建议报告
 - [编译] 从 `raw/articles/2026-04-16T103320+0800_llm-wiki.md` 生成摘要：`wiki/summaries/2026-04-16T103320+0800_llm-wiki-summary.md`
   - 概念 ID：wiki-summaries-llm-wiki-gist
 - [编译] 从 `raw/articles/2026-04-16T103544+0800_Thread by @karpathy.md` 生成摘要：`wiki/summaries/2026-04-16T103544+0800_karpathy-thread-summary.md`
