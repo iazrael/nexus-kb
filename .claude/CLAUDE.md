@@ -14,20 +14,81 @@
 1. `playwright-cli` 技能
 2. `playwright-cli` 命令
 3. `https://r.jina.ai/`
-4. `WebFetch`
+4. `playwright` MCP
+5. `WebFetch`
 
 ## 目录结构规范
-- `raw/`：原始资料，只读，永不修改
+- `raw/`：原始资料，正文只读，frontmatter 的 `status` 和 `compiled_to` 字段可更新
 - `wiki/`：编译后的知识资产，核心价值所在
 - `outputs/`：临时文件，可随意读写，不提交 Git
 - `.claude/commands/nexus/`：自定义命令定义（nexus 命名空间）
 - `.claude/memory/`：跨会话记忆
 
 ## 文件命名规范
-- 原始资料：`YYYY-MM-DD_描述性标题.md`
+- 原始资料：`YYYY-MM-DDTHHMMSS+TZ_描述性标题.md`（ISO 8601 时间戳）
 - 概念条目：`PascalCase.md`（如 `RAG.md`、`Embeddings.md`）
 - 对比文档：`A_vs_B.md`
 - 教程文档：`动词_名词.md`（如 `build_knowledge_base.md`）
+
+## Frontmatter 规范
+
+所有文件应包含 YAML frontmatter（元数据）+ Markdown 正文（内容），两者互补：
+- **frontmatter**：给 AI 查询的结构化元数据（id、时间戳、状态、来源链接）
+- **正文**：给人阅读的内容（定义、核心要点、边界条件）
+
+### raw/ 目录 frontmatter
+
+```yaml
+---
+id: "raw-{type}-{date}-{slug}"      # 唯一标识
+title: "[标题]"
+type: "article/paper/note"
+created_at: "YYYY-MM-DDTHH:MM:SS+TZ"
+source_url: "[来源URL 或 null]"
+source_author: "[作者 或 null]"
+tags: ["tag1", "tag2"]
+status: "pending/compiled/skipped"   # 编译状态
+compiled_to: []                      # 编译后追加
+---
+```
+
+### wiki/concepts/ 目录 frontmatter
+
+```yaml
+---
+id: "wiki-concepts-[名称]"
+title: "[概念名称]"
+type: "concept"
+created_at: "YYYY-MM-DD"
+updated_at: "YYYY-MM-DD"
+derived_from: ["raw/articles/xxx.md"]
+tags: ["tag1", "tag2"]
+status: "active/deprecated/draft"
+related_concepts: []
+---
+```
+
+正文保留完整 Markdown 结构（`## 定义`、`## 核心要点`、`## 边界条件`）。
+
+### wiki/summaries/ 目录 frontmatter
+
+```yaml
+---
+id: "wiki-summaries-[原始文件名]"
+title: "[原始文件标题] 摘要"
+type: "summary"
+created_at: "YYYY-MM-DD"
+derived_from: ["raw/articles/xxx.md"]
+tags: ["summary"]
+status: "active"
+---
+```
+
+### 字段命名规范
+- 使用 `snake_case`（如 `created_at`、`derived_from`）
+- 日期格式：ISO 8601（`YYYY-MM-DD` 或 `YYYY-MM-DDTHH:MM:SS+TZ`）
+- 标签格式：YAML 数组 `["tag1", "tag2"]`
+- ID 格式：`{目录}-{类型}-{名称}`（如 `raw-articles-2026-04-16-llm-wiki`）
 
 ## 可用命令
 所有知识库相关命令统一在 `/nexus:` 命名空间下：
