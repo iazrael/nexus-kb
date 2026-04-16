@@ -12,7 +12,8 @@
 - [raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md](../../raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md)
 
 ## 关联概念
-- [[LLMWiki|LLM Wiki]]
+- [LLM Wiki](./LLMWiki.md)
+
 
 ## 边界条件
 - **依赖 agent 能力**：需要 agent 具备足够的理解和执行能力来从想法构建系统
