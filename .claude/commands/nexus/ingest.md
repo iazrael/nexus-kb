@@ -9,7 +9,7 @@ arguments:
 请执行以下步骤摄入资料到知识库：
 
 ## 步骤 1：获取内容
-- 如果 {source} 是 URL：使用 `playwright-cli` 技能或其他浏览器工具获取内容，转换为 Markdown
+- 如果 {source} 是 URL：使用网页抓取工具（`playwright-cli` 技能或其他浏览器工具）获取内容，转换为 Markdown
 - 如果 {source} 是文件路径：读取本地文件
 - 如果 {source} 是文本：直接使用
 

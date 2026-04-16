@@ -9,6 +9,7 @@
 # Keep commands & memory
 !.claude/commands/
 !.claude/memory/
+!.claude/CLAUDE.md
 
 # Knowledge Base outputs (temporary files)
 /outputs/tmp/
@@ -74,6 +75,7 @@ dist/
 .markdownlint-cache
 examples
 .zegoflow.json
-.playwright-cli/
+.playwright-*/
 __mocks__/
 examples/
+.obsidian
