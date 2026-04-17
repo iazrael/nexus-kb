@@ -1,3 +1,18 @@
+---
+id: wiki-summaries-karpathy-llm-wiki-cn
+title: Karpathy LLM Wiki 完整拆解与实操路径 摘要
+type: summary
+created_at: 2026-04-15
+derived_from:
+  - raw/articles/2026-04-15_Karpathy-LLM-Wiki完整拆解与实操路径.md
+tags:
+  - summary
+  - llm-wiki
+  - karpathy
+  - production-experience
+status: active
+---
+
 # Karpathy LLM Wiki 摘要
 
 ## 一句话总结
