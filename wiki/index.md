@@ -31,3 +31,4 @@
 ## 待编译
 <!-- 新摄入但尚未编译的原始资料 -->
 - [2026-04-16] [OpenClaw 自己写 Skill 教程（2026）：SKILL.md 结构 + 实战示例](raw/articles/2026-04-16T140250+0800_openclaw-create-custom-skill-guide-2026.md) - 待编译
+- [2026-04-16] [OpenClaw 官方秘籍：Lossless-claw (LCM) 插件最佳配置指南](raw/articles/2026-04-16T230800+0800_lossless-claw-lcm-guide.md) - 待编译
