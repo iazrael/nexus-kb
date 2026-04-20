@@ -1,5 +1,5 @@
 ---
-id: wiki-summaries-karpathy-llm-wiki-cn
+id: "wiki-summaries-2026-04-15-karpathy-llm-wiki-cn"
 title: Karpathy LLM Wiki 完整拆解与实操路径 摘要
 type: summary
 created_at: 2026-04-15
