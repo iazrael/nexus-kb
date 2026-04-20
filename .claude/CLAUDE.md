@@ -12,7 +12,7 @@
 ## 网页抓取工具
 按照以下顺序挑选合适的工具。
 1. `playwright-cli` 技能
-2. `playwright-cli` 命令
+2. `web-access` 技能
 3. `https://r.jina.ai/`
 4. `playwright` MCP
 5. `WebFetch`
