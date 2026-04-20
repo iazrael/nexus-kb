@@ -47,7 +47,7 @@ description: 将 raw/ 中的未处理资料编译为 wiki/ 知识条目
 
 ### 3.1 摘要（Summarize）
 - 为每个原始文件生成简明摘要
-- 保存到 `wiki/summaries/[原始文件名]-summary.md`
+- 保存到 `wiki/summaries/YYYY-MM-DD_描述性标题-summary.md`
 
 ### 3.2 浓缩（Condense）
 - 提取不超过 3 条核心结论
@@ -110,9 +110,11 @@ related_concepts: []
 
 ### 新摘要格式（保存到 `wiki/summaries/`）：
 
+文件命名：`YYYY-MM-DD_描述性标题-summary.md`
+
 ```markdown
 ---
-id: "wiki-summaries-[原始文件名]"
+id: "wiki-summaries-[YYYY-MM-DD-描述性标题]"
 title: "[原始文件标题] 摘要"
 type: "summary"
 created_at: "[当前日期]"

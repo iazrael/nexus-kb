@@ -1,5 +1,5 @@
 ---
-id: "wiki-summaries-llm-wiki-gist"
+id: "wiki-summaries-2026-04-16-llm-wiki"
 title: "LLM Wiki 方法论文档摘要"
 type: "summary"
 created_at: "2026-04-16"

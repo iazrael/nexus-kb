@@ -1,5 +1,5 @@
 ---
-id: wiki-summaries-karpathy-thread
+id: "wiki-summaries-2026-04-16-karpathy-thread"
 title: Karpathy X 原帖摘要
 type: summary
 created_at: 2026-04-16

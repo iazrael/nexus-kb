@@ -25,8 +25,9 @@
 - `.claude/memory/`：跨会话记忆
 
 ## 文件命名规范
-- 原始资料：`YYYY-MM-DDTHHMMSS+TZ_描述性标题.md`（ISO 8601 时间戳）
-- 概念条目：`PascalCase.md`（如 `RAG.md`、`Embeddings.md`）
+- 原始资料（raw/）：`YYYY-MM-DD_描述性标题.md`
+- 概念条目（wiki/concepts/）：`PascalCase.md`（如 `RAG.md`、`Embeddings.md`）
+- 摘要文件（wiki/summaries/）：`YYYY-MM-DD_描述性标题-summary.md`
 - 对比文档：`A_vs_B.md`
 - 教程文档：`动词_名词.md`（如 `build_knowledge_base.md`）
 
