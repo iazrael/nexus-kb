@@ -13,8 +13,10 @@ tags:
   - "tutorial"
   - "ai-automation"
   - "markdown"
-status: "pending"
-compiled_to: []
+status: "compiled"
+compiled_to:
+  - "wiki/summaries/2026-04-16_openclaw-skill-guide-summary.md"
+  - "wiki/concepts/OpenClawSkill.md"
 ---
 
 # OpenClaw 自己写 Skill 完整教程（2026）：从零开始，10 分钟做出第一个技能包

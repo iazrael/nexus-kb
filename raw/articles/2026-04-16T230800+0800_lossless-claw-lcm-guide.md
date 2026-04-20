@@ -5,8 +5,10 @@ type: "article"
 created_at: "2026-04-16T23:08:00+0800"
 source_url: "https://zhuanlan.zhihu.com/p/2016618954366394980"
 tags: ["openclaw", "lcm", "lossless-claw", "memory", "ai", "configuration"]
-status: "pending"
-compiled_to: []
+status: "compiled"
+compiled_to:
+  - "wiki/summaries/2026-04-16_lossless-claw-lcm-guide-summary.md"
+  - "wiki/concepts/LCMMemory.md"
 ---
 
 # OpenClaw 官方秘籍：Lossless-claw (LCM) 插件最佳配置指南

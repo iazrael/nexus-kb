@@ -6,6 +6,16 @@
 
 ## 2026-04-20
 
+- [编译] 从 `raw/articles/2026-04-16T140250+0800_openclaw-create-custom-skill-guide-2026.md` 生成摘要：`wiki/summaries/2026-04-16_openclaw-skill-guide-summary.md`
+  - 概念 ID：wiki-summaries-2026-04-16-openclaw-skill-guide
+- [编译] 从 `raw/articles/2026-04-16T140250+0800_openclaw-create-custom-skill-guide-2026.md` 新增概念：`wiki/concepts/OpenClawSkill.md`
+  - 概念 ID：wiki-concepts-OpenClawSkill
+- [编译] 从 `raw/articles/2026-04-16T230800+0800_lossless-claw-lcm-guide.md` 生成摘要：`wiki/summaries/2026-04-16_lossless-claw-lcm-guide-summary.md`
+  - 概念 ID：wiki-summaries-2026-04-16-lossless-claw-lcm-guide
+- [编译] 从 `raw/articles/2026-04-16T230800+0800_lossless-claw-lcm-guide.md` 新增概念：`wiki/concepts/LCMMemory.md`
+  - 概念 ID：wiki-concepts-LCMMemory
+- [双向链接] 更新 `raw/articles/2026-04-16T140250+0800_openclaw-create-custom-skill-guide-2026.md` 的 compiled_to 和 status
+- [双向链接] 更新 `raw/articles/2026-04-16T230800+0800_lossless-claw-lcm-guide.md` 的 compiled_to 和 status
 - [健康检查] 生成报告：`outputs/reports/health_2026-04-20.md`
   - 健康评分：92/100
   - 发现问题：严重 0、中等 1、轻微 0
