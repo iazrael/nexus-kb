@@ -10,7 +10,9 @@
 - [渐进式 Token 披露](concepts/ProgressiveTokenDisclosure.md) | 分级读取策略，避免不必要全文加载
 - [知识反哺](concepts/KnowledgeFeedback.md) | 对话成果回流到知识库的机制
 - [OpenClaw Skill](concepts/OpenClawSkill.md) | AI 能力扩展机制，SKILL.md 定义触发和流程
-- [LCM Memory](concepts/LCMMemory.md) | 向量压缩记忆，递归摘要实现无限记忆
+- [Agent 自进化机制](concepts/AgentSelfEvolution.md) | Hermes 闭环学习：经验→技能→改进→持久化
+- [Agent 记忆系统架构](concepts/AgentMemorySystem.md) | OpenClaw 插件槽位 vs Hermes 三层可编排
+- [智能审批安全模型](concepts/SmartApproval.md) | 默认安全 vs 辅助模型风险评估的两种范式
 
 ## 摘要
 <!-- 资料摘要列表：格式 - [标题](路径) | 一句话总结 -->
@@ -18,7 +20,7 @@
 - [LLM Wiki 方法论文档摘要](summaries/2026-04-16_llm-wiki-summary.md) | Karpathy 官方 Gist，三层架构与三大操作详解
 - [Karpathy X 原帖摘要](summaries/2026-04-16_karpathy-thread-summary.md) | 概念首发帖，简述核心流程和工具链
 - [OpenClaw Skill 教程摘要](summaries/2026-04-16_openclaw-skill-guide-summary.md) | Skill 是 SKILL.md 说明文件，定义触发条件和工作流程
-- [Lossless-claw LCM 配置指南摘要](summaries/2026-04-16_lossless-claw-lcm-guide-summary.md) | 四参数控制记忆翻译、保留深度、递归层级、触发阈值
+- [OpenClaw vs Hermes 对比摘要](summaries/2026-05-06_openclaw-vs-hermes-summary.md) | 万字对比两大框架核心差异，含源码级分析
 
 ## 对比分析
 <!-- 对比文档列表 -->
@@ -31,6 +33,10 @@
 
 ## 洞察
 <!-- 衍生洞察列表 -->
+
+- [AgentSelfEvolution](concepts/AgentSelfEvolution.md) ↔ [OpenClawSkill](concepts/OpenClawSkill.md)：自进化的产物就是 Skill
+- [AgentMemorySystem](concepts/AgentMemorySystem.md) ↔ [LCMMemory](concepts/LCMMemory.md)：OpenClaw 记忆的 LCM 实现
+- [AgentSelfEvolution](concepts/AgentSelfEvolution.md) ↔ [AgentMemorySystem](concepts/AgentMemorySystem.md)：进化依赖记忆，记忆支撑进化
 
 ## 待编译
 <!-- 新摄入但尚未编译的原始资料 -->

@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-05-06
+
+- [摄入] 新增：`raw/articles/2026-05-06T132500+0800_openclaw-vs-hermes-agent-framework.md`
+  - ID：raw-articles-20260506-openclaw-vs_hermes
+  - 来源：https://mp.weixin.qq.com/s/wPuKUlajb6IaIL3uH7gSAA
+  - 标签：openclaw, hermes, agent, framework, comparison, skills, memory, security
+- [编译] 新增概念：`wiki/concepts/AgentSelfEvolution.md`（Agent 自进化机制）
+- [编译] 新增概念：`wiki/concepts/AgentMemorySystem.md`（Agent 记忆系统架构）
+- [编译] 新增概念：`wiki/concepts/SmartApproval.md`（智能审批安全模型）
+- [编译] 生成摘要：`wiki/summaries/2026-05-06_openclaw-vs-hermes-summary.md`
+- [双向链接] 更新 raw article status→compiled, compiled_to 追加 4 个产出文件
+- [双向链接] 更新 index.md：新增 3 概念 + 1 摘要 + 3 关联，移除待编译条目
+- [关联] AgentSelfEvolution ↔ OpenClawSkill（自进化产物即 Skill）
+- [关联] AgentMemorySystem ↔ LCMMemory（OpenClaw 记忆实现）
+- [关联] AgentSelfEvolution ↔ AgentMemorySystem（进化依赖记忆）
+
+---
+
 ## 2026-04-20
 
 - [编译] 从 `raw/articles/2026-04-16T140250+0800_openclaw-create-custom-skill-guide-2026.md` 生成摘要：`wiki/summaries/2026-04-16_openclaw-skill-guide-summary.md`

@@ -12,7 +12,7 @@ tags:
   - "embedding"
   - "compression"
 status: "active"
-related_concepts: []
+related_concepts: ["AgentMemorySystem"]
 ---
 
 # LCM Memory
