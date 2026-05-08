@@ -1,3 +1,24 @@
+---
+id: "raw-articles-2026-05-19-time-aware-proactive-agent-research"
+title: "AI Agent 时间感知与主动智能研究资料汇总"
+source: null
+source_author: null
+created_at: "2026-05-19"
+type: "note"
+tags:
+  - "time-aware"
+  - "proactive-agent"
+  - "autonomous"
+  - "heartbeat"
+  - "cron"
+  - "chatty-agent"
+status: "compiled"
+compiled_to:
+  - "wiki/summaries/2026-05-08_time-aware-proactive-agent-summary.md"
+  - "wiki/concepts/HeartbeatMechanism.md"
+  - "wiki/concepts/ChattyAgent.md"
+---
+
 # AI Agent 时间感知与主动智能研究资料汇总
 
 > 采集时间: 2026-05-19

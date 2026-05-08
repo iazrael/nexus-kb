@@ -3,7 +3,7 @@ id: "wiki-concepts-AgentSelfEvolution"
 title: "Agent 自进化机制"
 type: "concept"
 created_at: "2026-05-06"
-updated_at: "2026-05-06"
+updated_at: "2026-05-08"
 derived_from:
   - "raw/articles/2026-05-06T132500+0800_openclaw-vs-hermes-agent-framework.md"
 tags:
@@ -12,8 +12,9 @@ tags:
   - "skills"
   - "learning-loop"
   - "hermes"
+  - "heartbeat"
 status: "active"
-related_concepts: ["OpenClawSkill", "AgentMemorySystem"]
+related_concepts: ["OpenClawSkill", "AgentMemorySystem", "HeartbeatMechanism"]
 ---
 
 # Agent 自进化机制

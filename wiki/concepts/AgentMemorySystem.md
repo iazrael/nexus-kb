@@ -3,7 +3,7 @@ id: "wiki-concepts-AgentMemorySystem"
 title: "Agent 记忆系统架构"
 type: "concept"
 created_at: "2026-05-06"
-updated_at: "2026-05-06"
+updated_at: "2026-05-08"
 derived_from:
   - "raw/articles/2026-05-06T132500+0800_openclaw-vs-hermes-agent-framework.md"
 tags:
@@ -12,8 +12,9 @@ tags:
   - "hermes"
   - "openclaw"
   - "architecture"
+  - "five-layer"
 status: "active"
-related_concepts: ["LCMMemory", "AgentSelfEvolution"]
+related_concepts: ["LCMMemory", "AgentSelfEvolution", "FiveLayerMemory"]
 ---
 
 # Agent 记忆系统架构

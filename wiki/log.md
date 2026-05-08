@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-05-08
+
+- [编译] 从 `raw/articles/2026-05-08T114648+0800_用Agent评测思路管理AI Coding.md` 生成摘要：`wiki/summaries/2026-05-08_ai-coding-management-summary.md`
+  - 概念 ID：wiki-summaries-2026-05-08-ai-coding-management
+- [编译] 从 `raw/articles/2026-05-08T114648+0800` 新增概念：`wiki/concepts/AICodingManagement.md`
+  - 概念 ID：wiki-concepts-AICodingManagement
+- [编译] 从 `raw/articles/2026-05-08T114648+0800` 新增概念：`wiki/concepts/PrePRMechanism.md`
+  - 概念 ID：wiki-concepts-PrePRMechanism
+- [编译] 从 `raw/articles/2026-05-08T114801+0800_Building Autonomous AI Agents.md` 生成摘要：`wiki/summaries/2026-05-08_heartbeat-cron-memory-summary.md`
+  - 概念 ID：wiki-summaries-2026-05-08-heartbeat-cron-memory
+- [编译] 从 `raw/articles/2026-05-08T114801+0800` 新增概念：`wiki/concepts/HeartbeatMechanism.md`
+  - 概念 ID：wiki-concepts-HeartbeatMechanism
+- [编译] 从 `raw/articles/2026-05-08T114801+0800` 新增概念：`wiki/concepts/FiveLayerMemory.md`
+  - 概念 ID：wiki-concepts-FiveLayerMemory
+- [编译] 从 `raw/articles/2026-05-08T114833+0800_主动式语音Agent的设计思考.md` 生成摘要：`wiki/summaries/2026-05-08_proactive-voice-agent-summary.md`
+  - 概念 ID：wiki-summaries-2026-05-08-proactive-voice-agent
+- [编译] 从 `raw/articles/2026-05-08T114833+0800` 新增概念：`wiki/concepts/DualSystemAgent.md`
+  - 概念 ID：wiki-concepts-DualSystemAgent
+- [编译] 从 `raw/articles/2026-05-19-time-aware-proactive-agent-research.md` 生成摘要：`wiki/summaries/2026-05-08_time-aware-proactive-agent-summary.md`
+  - 概念 ID：wiki-summaries-2026-05-08-time-aware-proactive-agent
+- [编译] 从 `raw/articles/2026-05-19-time-aware-proactive-agent-research.md` 新增概念：`wiki/concepts/ChattyAgent.md`
+  - 概念 ID：wiki-concepts-ChattyAgent
+- [编译] 更新概念：`wiki/concepts/AgentSelfEvolution.md`（补充 HeartbeatMechanism 关联）
+- [编译] 更新概念：`wiki/concepts/AgentMemorySystem.md`（补充 FiveLayerMemory 关联）
+- [双向链接] 更新 4 个 raw 文件的 status→compiled，compiled_to 追加产出文件
+- [双向链接] 更新 index.md：新增 6 概念 + 4 摘要 + 4 关联洞察
+
+---
+
 ## 2026-05-06
 
 - [摄入] 新增：`raw/articles/2026-05-06T132500+0800_openclaw-vs-hermes-agent-framework.md`
